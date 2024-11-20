@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Battle and win!! Anime Force offical site" />
+        <meta name="keywords" content="Anime Force RPG" />
+        <meta name="author" content="Oluyoh Okiemute||Victory Fatoyinbo" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Terms and Conditions</title>
+        <link rel="stylesheet" href="stylest.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto:ital,wght@0,100;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script>
+            $(function() {
+
+        $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active")
+                document.getElementById("menuu").src = "images/hamburger.png";
+            }
+            else
+            {
+                $(".item").addClass("active")
+                document.getElementById("menuu").src = "images/close.png";
+            }
+        })
+    });
+        </script>
+        <script src="js/item.js"></script>
+        <script>
+        var wpEdits = document.querySelectorAll(".itemko");
+
+for (let i = 0; i < wpEdits.length; i++){
+    wpEdits[i].addEventListener("click", showID);
+}
+  
+
+function showID(evt) {
+  for (let i = 0; i < wpEdits.length; i++){
+    if(wpEdits[i] == evt.target){
+        alert(i); 
+    } 
+  }
+}
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+    
+                <section class="logo">
+                    <img src="images/anime_force.png">
+                </section>
+    
+                <div class="vic">
+                    <img class="logotwo" src="images/anime_force.png">
+                    <h2 class="title">AnimeForce</h2>
+                    <img id="menuu" class="menu_icon toggle" src="images/hamburger.png" alt="hero-image">
+                </div>
+                
+                <nav class="menu">
+                    <div class="menuuu item">
+                    <ul>
+                        <li class="item"><a class="nav__link" href="index.html">Home</a></li>
+                        <li class="item"><a class="nav__link" href="how_to_play.html">How To Begin</a></li>
+                        <li class="item"><a class="nav__link" href="rules.html">Rules</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Character<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="races.html">Races</a>
+                              <a href="country.html">Countries/Realms</a>
+                              <a href="classes.html">Classes</a>
+                              <a href="avatar.html">Avatar</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Skills<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                                <a href="physical_skills.html">Physical Skills</a>
+                                <a href="saiyan_skills.html">Saiyan Skills</a>
+                                <a href="shinobi_skills.html">Shinobi Skills</a>
+                                <a href="shinigami_skills.html">Shinigami Skills</a>
+                                <a href="demon_skills.html">Demon Skills</a>
+                                <a href="demi_skills.html">Demi-humans Skills</a>
+                                <a href="celestials_skills.html">Celestials Skills</a>
+                                <a href="class_skills.html">Class Skills/Spells</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="modes_powerups.html">Modes|PowerUps</a></li>
+                        <li class="item"><a class="nav__link" href="Beasts.html">Beasts</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Shops<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="items.html">Items</a>
+                              <a href="weapons_equipments.html">Weapons/Equipments</a>
+                              <a href="get_more_resources.html">GetMoreResources</a>
+                            </div>
+                          </div>
+                        </li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">GameModes<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="story_mode.html">Story Mode</a>
+                              <a href="raids.html">Raids</a>
+                              <a href="adventure_mode.html">Adventure Modes</a>
+                              <a href="crafting.html">Crafting & Trading</a>
+                              <a href="casino.html">Casino</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="event.html">Events</a></li>
+                        <!--put royal pass in events--> 
+                        <li class="item"><a class="nav__link" href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="start">
+
+            <div class="itemko">aaaa</div>
+                <div class="itemko">bbbb</div>
+                <div class="itemko">cccc</div>
+                <div class="itemko">dddd</div>
+                <div class="itemko">eeee</div>
+            <div class="content"><br>
+
+                
+                    <table id="parent" class="search_table">
+                      <tr>
+                        <th>name</th>
+                        <th>family</th>
+                        <th>weight</th>
+                      </tr>
+                      <tr>
+                        <td style="cursor: pointer;" class="itemk">Adamantine Armor</td>
+                        <td>Armor</td>
+                        <td>35lb</td>
+                      </tr>
+                      <tr>
+                        <td style="cursor: pointer;" class="itemk">Amulet of Health</td>
+                        <td>necklace</td>
+                        <td>0.5lb</td>
+                      </tr>
+                      <tr>
+                        <td style="cursor: pointer;" class="itemk">glass Armor</td>
+                        <td>Armor</td>
+                        <td>35lb</td>
+                      </tr>
+                      <tr>
+                        <td style="cursor: pointer;" class="itemk">react of Health</td>
+                        <td>necklace</td>
+                        <td>0.5lb</td>
+                      </tr>
+                    </table>
+                
+                    <div class="npcpop itemk">
+                      <div class="npcpop_con itemb">
+                          <img class="npc_close" onclick="closetxtclick('item1')" src="images/close.png">
+                          <div style="display: flex; justify-content: center;">
+                              <img style="width: 150px; height: 150px;" src="items/Adamantine_Armor.png">
+                          </div>
+                          <div style="padding: 0px 15px;">
+                              <h5 style="text-align: center;">Adamantine Armor</h5>
+                              <p style="font-size: 13px; color:darkblue;">
+                                  Armor (medium or heavy, but not hide), Rare
+                              </p>
+                              <hr class="ull zz" style="width: 100%;">
+                          </div>
+                          <div style="padding: 0px 15px; height: 35%; overflow: scroll;" >
+                              <p style="color: black; font-weight: 700;">
+                                  This suit of armor is reinforced with adamantine, one of the hardest substances in 
+                                  existence. While you're wearing it, any critical hit against you becomes a normal hit.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="npcpop item2">
+                      <div class="npcpop_con itemb">
+                          <img class="npc_close" onclick="closetxtclick('item2')" src="images/close.png">
+                          <div style="display: flex; justify-content: center;">
+                              <img style="width: 150px; height: 150px;" src="items/amulet_of_health.png">
+                          </div>
+                          <div style="padding: 0px 15px;">
+                              <h5 style="text-align: center;">Amulet of Health</h5>
+                              <p style="font-size: 13px; color:darkblue;">
+                                  Wondrous item, epic (requires attunement)
+                              </p>
+                              <hr class="ull zz" style="width: 100%;">
+                          </div>
+                          <div style="padding: 0px 15px; height: 35%; overflow: scroll;" >
+                              <p style="color: black; font-weight: 700;">
+                                  Your Constitution score is 19 while you wear this amulet. It has no effect on you if 
+                                  your Constitution is already 19 or higher.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+            </div><br>
+        </div>
+            <footer>
+                <p>
+                © Copyright 2021 AlphaX Studios <a href="terms.html">Terms & Conditions</a> | <a href="policy.html">Privacy Policy</a> - All Rights Reserved
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,289 @@
+﻿/* Basic background elements formatting */
+body {
+  min-height: 100vh;
+  background: #121212;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 40px;
+}
+
+/* Typography fomratting */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #d4d4d4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  font-size: 34px;
+  text-align: center;
+}
+
+h3 {
+  color: #e0dfdf;
+  font-size: 20px;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  color: #3549b8;
+}
+
+p {
+  font-size: 21px;
+}
+
+.mini__heading {
+  text-align: center;
+  color: #3549b8;
+}
+
+.level__list {
+  color: #d4d4d4;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  text-align: center;
+}
+
+/* Footer formatting */
+.foot {
+  font-size: 18px;
+}
+
+/* Home Page Text */
+
+.landing-text {
+  min-height: 100vh;
+  padding: 0px 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.landing-text h1 {
+  font-size: 50px;
+  color: #162685;
+}
+
+.landing-text h3 {
+  color: #e0dfdf;
+  font-size: 24px;
+  text-shadow: 2px 2px #162685;
+}
+
+/* Normal text link formatting */
+a {
+  text-decoration: none;
+  color: #3549b8;
+}
+
+/* Button link formatting */
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 5%;
+  background-color: #3549b8;
+  color: #d4d4d4;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition: opacity 1s ease-in;
+}
+
+.reg_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header_img {
+  height: 80vw;
+  width: 80vw;
+}
+
+/* Responsive layouut for bigger screens */
+@media screen and (min-width: 960px) {
+  .start {
+    position: relative;
+    left: 0px;
+    top: 80px;
+    padding: 0 20vw;
+  }
+
+  .header_img {
+    height: 450px;
+    width: 550px;
+  }
+}
+
+/* Card Styling */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider__box {
+  width: 100%;
+  height: 610px;
+  background-color: #3c3c3d;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 20px 10px;
+}
+
+.model {
+  height: 350px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.card__btn {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  border: none;
+  border-radius: 5%;
+  background-color: red;
+  color: #d4d4d4;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  transition: opacity 1s ease-in;
+}
+
+.card__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.card__details p {
+  text-align: center;
+  font-weight: 900;
+  color: #121212;
+}
+
+.card__saiyan {
+  color: #121212;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.card__logo {
+  height: 60px;
+}
+
+.slider__box:hover {
+  background-color: #394baf;
+  transform-style: preserve-3d;
+  transform: scale(1.02);
+  transition: all ease 0.3s;
+}
+
+.slider__box:hover .card__saiyan {
+  color: #ffeb70;
+  transition: all ease 0.5s;
+}
+
+.card__demon {
+  color: #121212;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.slider__box:hover .card__demon {
+  color: #ec3ea4;
+  transition: all ease 0.5s;
+}
+
+/* responsive card for mobile */
+@media (max-width: 720px) {
+  .slider__box {
+    width: 94%;
+    height: 500px;
+  }
+  .model {
+    height: 250px;
+  }
+  .card__details p {
+    font-size: 16px;
+    width: 250px;
+  }
+}
+
+/* For Search Button */
+.search-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #d4d4d4;
+  width: 300px;
+  height: 45px;
+  border-radius: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  float: right;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0%;
+  color: #121212;
+  font-size: 14.5px;
+  transition: 0.4s;
+  line-height: 22.5px;
+  width: 240px;
+}
+
+li {
+  color: #d4d4d4;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}

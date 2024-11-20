@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Battle and win!! Anime Force offical site" />
+        <meta name="keywords" content="Anime Force RPG" />
+        <meta name="author" content="Oluyoh Okiemute||Victory Fatoyinbo" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Card Creator</title>
+        <link rel="stylesheet" href="stylest.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto:ital,wght@0,100;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script>
+            $(function() {
+
+        $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active")
+                document.getElementById("menuu").src = "images/hamburger.png";
+            }
+            else
+            {
+                $(".item").addClass("active")
+                document.getElementById("menuu").src = "images/close.png";
+            }
+        })
+    });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+    
+                <section class="logo">
+                    <img src="images/anime_force.png">
+                </section>
+    
+                <div class="vic">
+                    <img class="logotwo" src="images/anime_force.png">
+                    <h2 class="title">AnimeForce</h2>
+                    <img id="menuu" class="menu_icon toggle" src="images/hamburger.png" alt="hero-image">
+                </div>
+                
+                <nav class="menu">
+                    <div class="menuuu item">
+                    <ul>
+                        <li class="item"><a class="nav__link" href="index.html">Home</a></li>
+                        <li class="item"><a class="nav__link" href="how_to_play.html">How To Begin</a></li>
+                        <li class="item"><a class="nav__link" href="rules.html">Rules</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Character<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="races.html">Races</a>
+                              <a href="country.html">Countries/Realms</a>
+                              <a href="classes.html">Classes</a>
+                              <a href="avatar.html">Avatar</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Skills<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                                <a href="physical_skills.html">Physical Skills</a>
+                                <a href="saiyan_skills.html">Saiyan Skills</a>
+                                <a href="shinobi_skills.html">Shinobi Skills</a>
+                                <a href="shinigami_skills.html">Shinigami Skills</a>
+                                <a href="demon_skills.html">Demon Skills</a>
+                                <a href="Beast_Persons.html">Beast-Persons Skills</a>
+                                <a href="Human_skills.html">Human Skills</a>
+                                <a href="class_skills.html">Class Skills/Spells</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="modes_powerups.html">Modes|PowerUps</a></li>
+                        <li class="item"><a class="nav__link" href="Beasts.html">Beasts</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Lore<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="items.html">Items</a>
+                              <a href="weapons_equipments.html">Weapons/Equipments</a>
+                              <a href="get_more_resources.html">GetMoreResources</a>
+                            </div>
+                          </div>
+                        </li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">GameModes<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="story_mode.html">Story Mode</a>
+                              <a href="raids.html">Raids</a>
+                              <a href="adventure_mode.html">Adventure Modes</a>
+                              <a href="crafting.html">Crafting & Trading</a>
+                              <a href="casino.html">Casino</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="event.html">Events</a></li>
+                        <!--put royal pass in events--> 
+                        <li class="item"><a class="nav__link" href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="start">
+            <div class="content"><br>
+              <h3 class="power_scaling">Card Creator</h3>
+              <hr class="ull"><br>
+              <p>
+                  Create your character card here. 
+              </p><br>
+              <h5>Whats your character name. (first and last name, add more or less if your race allows). pls do not use real character names, if you must do so mix it</h4>
+              <input class="input Cname" placeholder="Character Name">
+              
+              <h5>Whats you character age and gender? Age Hint: "14 - 30", Gender Hint "LOL"</h5>
+              <div>
+                <input style="width: 25%;" class="input Cage" placeholder="Age">
+                <input style="width: 50%;" class="input Cgender" placeholder="Gender">
+              </div>
+
+              <h5>Select a race below</h5>
+                <div style="display: flex;" onclick="drawerHider('racedrop','racear')">
+                  <input class="input Crace" readonly placeholder="Race">
+                  <img class="arrow_down racear" src="mini_icons/bx-chevron-down.svg" alt="">  
+                </div>
+                
+                  <div class="dropp-content racedrop">
+                    <a class="racese">Saiyan</a>
+                    <a class="racese">Shinobi</a>
+                    <a class="racese">Shinigami</a>  
+                    <a class="racese">Demon</a>  
+                    <a class="racese">Beast-Person</a>
+                    <br><br>
+                  </div>
+                
+                <div>
+                  
+                  <h5 id="class_title">Select a race first!!!</h5>
+                  <div style="display: flex;" onclick="classdrawerHider('classdrop','classar')">
+                    <input class="input Cclass" readonly placeholder="Class">
+                    <img class="arrow_down classar" src="mini_icons/bx-chevron-down.svg" alt="">  
+                  </div>
+                  
+                    <div class="dropp-content classdrop">
+                      <div style="display: none;" class="saiyan_class">
+                        <a class="classse">Fighter</a>
+                        <a class="classse">BattleMage</a>
+                        <a class="classse">Assassin</a>  
+                        <a class="classse">Tank</a>
+                      </div>
+                      <div style="display: none;" class="shinobi_class">
+                        <a class="classse">Fighter</a>
+                        <a class="classse">BattleMage</a>
+                        <a class="classse">Ranger</a>  
+                        <a class="classse">Priest</a>
+                        <a class="classse">Assassin</a>
+                        <a class="classse">Summoner</a>
+                        <a class="classse">Paladin</a>
+                      </div>
+                      <div style="display: none;" class="shinigami_class">
+                        <a class="classse">Fighter</a>
+                        <a class="classse">Paladin</a>
+                        <a class="classse">Assassin</a>  
+                        <a class="classse">Priest</a>
+                        <a class="classse">Tank</a>
+                      </div>
+                      <div style="display: none;" class="demon_class">
+                        <a class="classse">Fighter</a>
+                        <a class="classse">BattleMage</a>
+                        <a class="classse">Ranger</a>  
+                        <a class="classse">Mage</a>
+                        <a class="classse">Assassin</a>
+                        <a class="classse">Summoner</a>
+                        <a class="classse">Necromancer</a>
+                        <a class="classse">Tank</a>
+                        <a class="classse">Bard</a>
+                      </div>
+                      <div style="display: none;" class="beast_person_class">
+                        <a class="classse">Fighter</a>
+                        <a class="classse">BattleMage</a>
+                        <a class="classse">Ranger</a>  
+                        <a class="classse">Mage</a>
+                        <a class="classse">Assassin</a>
+                        <a class="classse">Summoner</a>
+                        <a class="classse">Necromancer</a>
+                        <a class="classse">Tank</a>
+                        <a class="classse">Bard</a>
+                        <a class="classse">Priest</a>
+                        <a class="classse">Paladin</a>
+                      </div>
+                      <br><br><br>
+                    </div>
+                
+                </div>
+                
+                <h5>Select a Background below</h5>
+                <div style="display: flex;" onclick="backgrounddrawerHider('backgrounddrop','backar')">
+                  <input class="input Cbackground" readonly placeholder="Background">
+                  <img class="arrow_down backar" src="mini_icons/bx-chevron-down.svg" alt="">  
+                </div>
+                
+                  <div class="dropp-content backgrounddrop">
+                    <a class="backgroundse">Acolyte</a>
+                    <a class="backgroundse">Artisan</a>
+                    <a class="backgroundse">Bounty-Hunter</a>  
+                    <a class="backgroundse">Charlatan</a>  
+                    <a class="backgroundse">City-Watch</a>
+                    <a class="backgroundse">Commoner</a>
+                    <a class="backgroundse">Criminal</a>
+                    <a class="backgroundse">Entertainer</a>
+                    <a class="backgroundse">Far-Traveler</a>
+                    <a class="backgroundse">Urchin</a>
+                    <a class="backgroundse">Thug</a>
+                    <a class="backgroundse">Spy</a>
+                    <a class="backgroundse">Soldier</a>
+                    <a class="backgroundse">Sailor</a>
+                    <a class="backgroundse">Sage</a>
+                    <br><br><br>
+                  </div>
+
+                <h5>Select an Alignment</h5>
+              <div style="display: flex;" onclick="backgrounddrawerHider('aligndrop','alignar')">
+                <input class="input CAlignment" readonly placeholder="Alignment">
+                <img class="arrow_down alignar" src="mini_icons/bx-chevron-down.svg" alt="">  
+              </div>
+              
+                <div class="dropp-content aligndrop">
+                  <a class="alignse">Lawful Good</a>
+                  <a class="alignse">Neutral Good</a>
+                  <a class="alignse">Chaotic Good</a>  
+                  <a class="alignse">Lawful Neutral</a>
+                  <a class="alignse">Neutral</a>
+                  <a class="alignse">Chaotic Neutral</a>  
+                  <a class="alignse">Lawful Evil</a>
+                  <a class="alignse">Neutral Evil</a>
+                  <a class="alignse">Chaotic Evil</a> 
+                  <br><br><br>
+                </div>
+                  <br>
+                  <br>
+                  <button style="width: 100%;" class="mode_button" onclick="generate_card()" >Generate Card<img style="width: 20px; height: 20px;" src="gif/kaka.gif" alt=""></button>
+              
+
+              <div class="Character_card_box">
+                <p style="color: blue;">Character Card</p>
+                <p id="first_section" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Forcer_Name" style="color: red; font-size: 14px; font-weight: 800; padding: 2px;"></p>
+                <div style="display: flex;">
+                  <p id="Age" style="color: black; font-size: 14px; padding: 2px;"></p>
+                  <p id="Gender" style="color: black; font-size: 14px; padding: 2px;"></p>
+                </div>
+                <p id="Size" style="color: black; font-size: 14px; padding: 2px;">Size: Medium</p>
+                <div style="display: flex;">
+                  <p id="Height" style="color: black; font-size: 14px; padding: 2px;"></p>
+                  <p id="Weight" style="color: black; font-size: 14px; padding: 2px;"></p>
+                </div>
+                <p id="Country" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <div style="display: flex;">
+                  <p id="Race" style="color: black; font-size: 14px; padding: 2px;"></p>
+                  <p id="Sub_race" style="color: black; font-size: 14px; padding: 2px;"></p>
+                </div>
+                <p id="Class" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Background" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Backgroundchoices" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Alignment" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Languages" style="color: black; font-size: 14px; padding: 2px;"></p><br>
+                <p id="Proficiency" style="color: red; font-weight: bolder; font-size: 14px; padding: 2px;">Proficiencies</p>
+                <p id="ArmorProficiency" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="WeaponProficiency" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Tools" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Techniques" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Saving_throws" style="color: black; font-size: 14px; padding: 2px;"></p><br>
+                <p id="Features" style="color: black; font-size: 14px; padding: 2px;"></p><br>
+                <p id="Perks" style="color: black; font-size: 14px; padding: 2px;"></p><br>
+
+                <p style="color: blue;">Battle card</p>
+                <div style="display: flex;">
+                  <p id="Lv" style="color: black; font-size: 14px; padding: 2px;">Lv 1</p>
+                  <p id="Exp" style="color: black; font-size: 14px; padding: 2px;"> Exp 0/300</p>
+                </div>
+                <div style="display: flex;">
+                  <p id="Hp" style="color: black; font-size: 14px; padding: 2px;"></p>
+                  <p id="Cp" style="color: black; font-size: 14px; padding: 2px;"></p>
+                </div>
+                <p id="Speed" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <div style="display: flex;">
+                  <p id="Rank" style="color: black; font-size: 14px; padding: 2px;"> Rank: F</p>
+                  <p id="Crowns" style="color: black; font-size: 14px; padding: 2px;">0/199 Cr</p>
+                </div>
+                <p id="Xp" style="color: black; font-size: 14px; padding: 2px;">Xp: 50</p>
+        
+                <p id="Str_score" style="color: green; font-size: 14px; padding: 2px;"></p>
+                <p id="Dex_score" style="color: green; font-size: 14px; padding: 2px;"></p>
+                <p id="Con_score" style="color: green; font-size: 14px; padding: 2px;"></p>
+                <p id="Int_score" style="color: green; font-size: 14px; padding: 2px;"></p>
+                <p id="Wis_score" style="color: green; font-size: 14px; padding: 2px;"></p>
+                <p id="Cha_score" style="color: green; font-size: 14px; padding: 2px;"></p>
+                
+                
+                
+                
+                <p style="color: red; font-weight: bolder; font-size: 14px; padding: 2px;">Skills</p>
+                <p style="color: black; font-size: 14px; padding: 2px;">A- Punch</p>
+                <p style="color: black; font-size: 14px; padding: 2px;">B- Kick</p>
+                <p id="Skills" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <p id="Free_slots" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <br>
+                <p id="KKG" style="color: black; font-size: 14px; padding: 2px;"></p>
+                <br>
+                <p id="Modes" style="color: black; font-size: 14px; padding: 2px;">Modes</p>
+                <p style="color: black; font-size: 14px; padding: 2px;">*</p>
+                <p style="color: black; font-size: 14px; padding: 2px;">*</p>
+                <br>
+                <p style="color: black; font-size: 14px; padding: 2px;">Beast</p>
+                <p id="Beasts" style="color: black; font-size: 14px; padding: 2px;">*</p>
+                <br>
+
+                <p style="color: blue;">Inventory Card</p>
+                <div style="display: flex;">
+                  <p id="cp" style="color: black; font-size: 14px; padding: 2px;"></p>
+                  <p id="Sp" style="color: black; font-size: 14px; padding: 2px;"></p>
+                  <p id="Gp" style="color: black; font-size: 14px; padding: 2px;"></p>
+                </div>
+                <p id="Inventory" style="color: black; font-size: 14px; padding: 2px;"></p>
+              </div><br><br>
+          </div>
+            <div>
+              <div id="scr" class="navb_con" onclick="topFunction()">
+                <hr class="navb">
+                <img class="navba" style="z-index: 5;" src="mini_icons/bx-chevron-down.svg">
+            </div>
+            <footer>
+                <p>
+                © Copyright 2021 AlphaX Studios <a href="terms.html">Terms & Conditions</a> | <a href="policy.html">Privacy Policy</a> - All Rights Reserved
+                </p>
+            </footer>
+        </div>
+    </body>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("scr");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <script>
+    function spellBoxHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+    }
+
+    function drawerHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+      let classbox = document.getElementsByClassName("Cclass")[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+            classbox.value = "Class";
+            classbox.style.color = "grey";
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+    }
+
+    function classdrawerHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+      let racebox = document.getElementsByClassName("Crace")[0];
+      let saiyanclassdrawer = document.getElementsByClassName("saiyan_class")[0];
+      let shinobiclassdrawer = document.getElementsByClassName("shinobi_class")[0];
+      let shinigamiclassdrawer = document.getElementsByClassName("shinigami_class")[0];
+      let demonclassdrawer = document.getElementsByClassName("demon_class")[0];
+      let beastclassdrawer = document.getElementsByClassName("beast_person_class")[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+            let currentrace = racebox.value;
+
+            if(currentrace == "Saiyan"){
+              let classtitle = document.getElementById("class_title").innerHTML = "Select a Saiyan usable class"
+              saiyanclassdrawer.style.display = "block"
+              shinobiclassdrawer.style.display = "none"
+              shinigamiclassdrawer.style.display = "none"
+              demonclassdrawer.style.display = "none"
+              beastclassdrawer.style.display = "none"
+            }else if(currentrace == "Shinobi"){
+              let classtitle = document.getElementById("class_title").innerHTML = "Select a Shinobi usable class"
+              saiyanclassdrawer.style.display = "none"
+              shinobiclassdrawer.style.display = "block"
+              shinigamiclassdrawer.style.display = "none"
+              demonclassdrawer.style.display = "none"
+              beastclassdrawer.style.display = "none"
+            }else if(currentrace == "Shinigami"){
+              let classtitle = document.getElementById("class_title").innerHTML = "Select a Shinigami usable class"
+              saiyanclassdrawer.style.display = "none"
+              shinobiclassdrawer.style.display = "none"
+              shinigamiclassdrawer.style.display = "block"
+              demonclassdrawer.style.display = "none"
+              beastclassdrawer.style.display = "none"
+            }else if(currentrace == "Demon"){
+              let classtitle = document.getElementById("class_title").innerHTML = "Select a Demon usable class"
+              saiyanclassdrawer.style.display = "none"
+              shinobiclassdrawer.style.display = "none"
+              shinigamiclassdrawer.style.display = "none"
+              demonclassdrawer.style.display = "block"
+              beastclassdrawer.style.display = "none"
+            }else if(currentrace == "Beast-Person"){
+              let classtitle = document.getElementById("class_title").innerHTML = "Select a Beast-person's usable class"
+              saiyanclassdrawer.style.display = "none"
+              shinobiclassdrawer.style.display = "none"
+              shinigamiclassdrawer.style.display = "none"
+              demonclassdrawer.style.display = "none"
+              beastclassdrawer.style.display = "block"
+            }
+            
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+
+    }
+
+    function backgrounddrawerHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+    }
+
+    $(".racese").bind("click", function(){
+          var divs = $(".racese");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          //txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          var fff = divs.get(curIdx).innerHTML;
+          let box = document.getElementsByClassName("racedrop")[0];
+          let arrow = document.getElementsByClassName("racear")[0];
+          box.style.display = "none";
+          arrow.style.transform = "rotate(180deg)";
+          
+          racepastedrawer(fff);
+          
+    });
+
+    $(".classse").bind("click", function(){
+          var divs = $(".classse");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          //txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          var fff = divs.get(curIdx).innerHTML;
+          let box = document.getElementsByClassName("classdrop")[0];
+          let arrow = document.getElementsByClassName("classar")[0];
+          box.style.display = "none";
+          arrow.style.transform = "rotate(180deg)";
+          
+          classpastedrawer(fff);
+          
+    });
+
+    $(".backgroundse").bind("click", function(){
+          var divs = $(".backgroundse");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          //txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          var fff = divs.get(curIdx).innerHTML;
+          let box = document.getElementsByClassName("backgrounddrop")[0];
+          let arrow = document.getElementsByClassName("backar")[0];
+          box.style.display = "none";
+          arrow.style.transform = "rotate(180deg)";
+          
+          backpastedrawer(fff);
+          
+    });
+
+    $(".alignse").bind("click", function(){
+          var divs = $(".alignse");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          //txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          var fff = divs.get(curIdx).innerHTML;
+          let box = document.getElementsByClassName("aligndrop")[0];
+          let arrow = document.getElementsByClassName("alignar")[0];
+          box.style.display = "none";
+          arrow.style.transform = "rotate(180deg)";
+          
+          alignpastedrawer(fff);
+          
+    });
+
+    
+  </script>
+  <script src="js/card_creator.js"></script>
+</html>

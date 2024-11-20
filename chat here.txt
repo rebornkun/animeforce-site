@@ -1,0 +1,248 @@
+lets start with the other stuff first.. i will attach the old site to a folder and name it old.. offcourse its an update 
+so we will change details .. but lets get the formats first
+
+epiz_28937665!
+3SNyzFGrKVck5az
+
+animeforce.rf.gd
+
+mapped battle  --done
+
+dragonoid --done
+Neko kin-- lion,cat,tiger  --done
+Lizard folk  --done
+Lycans (werewolf)
+elves-- mountain elf(dark elf), forest elf  --done
+dwarves  --done
+werewolf --done
+ghoul 
+cyclops
+
+human race
+human being
+meta human - quirk/nen human
+cyborg
+eldian or ackermann
+
+modes
+dragon knight
+dragon god
+werecat mode
+Hybrid mode-- vampire
+
+important!!!!!
+UPDATE THE CARD GENERATOR TO ONLY GENERATE SKILLS THAT THEY CAN USE AND ALSO ADD NEW UPDATES THE THE CARD GENERATOR FOLLOWING THE UPDATE PANEL
+ALSO PUT VSM IN SKILLS
+
+Jobs
+Fisher
+Chef
+Builder
+Diplomat
+Crafter
+Farmer
+Miner
+Alchemist
+Enchanting
+Hunter
+Scholar
+Calligrapher
+
+Adventuring Stats
+Fishing -- wis, str
+Cooking -- wis, int
+Building -- str, int, con
+Negotiation -- wis, int
+Crafting -- wis, int, str
+Farming -- wis, int
+Mining -- str, dex, con, wis
+Alchemy -- wis, int
+Enchanting -- wis, int, cha
+Scavenging -- cha, str, dex, wis
+Education -- int, wis
+Calligraphy -- int
+
+Aim action
+for every ability score you gain 20exp x player lv
+
+Movement speeds:
+Travel speeds
+*fly
+*walk
+*swim
+*burrow
+Battle speeds:
+Reaction
+attack
+striking
+
+enable skills lv increase by adding exp and xp to such skill.
+players gain skill exp by using skills or during training (for real game)
+players gain skill exp by turning real exp to skill exp for a rate.
+
+actions that can be done to NPC(like shopkeepers and others). 
+some actions may require you to make more than one ability checks and in some you must pass all.
+>
+steal -- Stealth and Sleight Of Hand
+Deceive -- Deception and Persuasion
+Persuade -- Persuasion
+Intimidate -- Intimidation (Intimidating some characters that can fight might not work and you might end up starting a random battle or even if the character cant fight, they will call the guards)
+Rob --
+
+
+new classes(high ranked that you can only attain at certain conditions)
+Demon lord-- after killing 10000 humans
+celestial-- after killing 10000 demons
+Kami-- after reaching lv 100
+
+
+weapons have normal damage
+some weapons have skills that can be used on it every time to validate the normal damage
+
+in conversations and interactions with bosses and other people, background counts
+
+cp used for spells  --done
+talk about V S M for spells
+cast spells to higher tiers/lv, you must be a certain lv, you can only cast spells 3 lv higher
+
+add V S M for skills
+range attacks have speed
+reaction speed
+
+tools under equipments
+
+condition surprised-- when he is almost attacked by a target he cant see, when you attack a target that you have x2 or more speed than, been surprised only lasts for 1 turn  ....
+put weight for creatures 
+
+skill format
+name(type)(rank)(range)
+name(type=atk)(dmgtype)(rank)(range)
+preparation time, duration
+time skills have what you call break power.. to break a time skill you need a neg skill with that much break power
+consider stk spd
+
+when traveling, the terrain, weather, stealthy travel, food,
+
+put 
+vampires --done
+succubus under demon
+
+additional stats per race --done
+
+succession cards which let you gain abilities of a hero/diety
+
+true multiplication is x that takes effect after the other buffs and debuffs
+residual damage-- healing per hour depending on class
+different modes different sizes
+
+carrying capacity for race 
+
+allow players to create dungeons
+dungeons have a trick to them.
+sometimes you need to say a riddle
+sometimes a maze
+sometimes description of the room will be given and you do it
+questions about monsters or items for each adventurer at a time
+
+
+add slave market
+do backgrounds -- 50%
+do realms
+do villages
+
+elf land will mainly be forest and they will deal on forest and herbs
+fountain of youth will be found at the elf province
+elf realm is divided in 4, mountain elfs, forest elfs and each have high elves
+
+merchants can even sell pets
+
+equipment have succession bonus-- amount of abilities they can hold
+Req for items or equipments- building equipments can require real buildings like workshop or somthing else
+creating equipment and others also require int stats. 
+
+Basic
+Rare -- usually have increased weapon health/ succession bonus x1
+Epic -- usually comes with a skill or effect/ succession bonus x2
+Legendary -- has awakened skills/ succession bonus x3
+
+you can break down equipment but you get only half of each material used to get it and at its -
+form before the equipment creation
+
+item workshop
+name/materials/time/End
+
+Housing
+1. Peasant
+2. Commoner
+3. Merchant
+4. Bureaucrat
+5. Political
+6. Noble
+7. Military (barracks)
+
+Trade
+1. Blacksmith
+2. Carpenter
+3. Potter
+4. Glassblower
+5. Tailor
+6. Leatherworker
+7. Armorsmith
+8. Weaponsmith
+9. Alchemist
+10. Stables (mounts)
+11. Mageware
+12. Spices
+13. Cloth
+14. Slaves
+15. Rare Materials
+16. Exotic Materials / Creatures
+17. Map Vendor
+18. Book Seller (and scribal supplies)
+19. Brothel
+20. Inn
+
+Religious
+1. Temple
+2. Shrine
+3. Church
+4. Sanctuary
+
+Economic
+-Markets (where trades are clustered together)
+1. Spice Market
+2. Slave Market
+3. Cloth Market
+4. Iron Market
+5. Food Market
+-Locations
+1. Docks
+2. Warehouse
+3. Granary
+
+Materials
+1. Quarry
+2. Lumberjack's Camp
+3. Hunter's Camp
+4. Mine
+5. Farm
+6. Smelting Furnace
+7. Plantation
+
+Recreation
+1. Tavern
+2. Inn
+3. Pub
+4. Gladiator / Fighter pits
+
+Education
+1. Fighter School
+2. Mage School
+3. Priest School (temple?)
+4. Library
+
+Someone growing vegetables, maybe a proper farm.
+Someone growing livestock, or hunters/fishermen. Shepherd, swineherd, cowherd, horse trainer.
+
+guild
+bridge

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Battle and win!! Anime Force offical site" />
+        <meta name="keywords" content="Anime Force RPG" />
+        <meta name="author" content="Oluyoh Okiemute||Victory Fatoyinbo" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Modes | Power-ups</title>
+        <link rel="stylesheet" href="stylest.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto:ital,wght@0,100;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script>
+            $(function() {
+
+        $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active")
+                document.getElementById("menuu").src = "images/hamburger.png";
+            }
+            else
+            {
+                $(".item").addClass("active")
+                document.getElementById("menuu").src = "images/close.png";
+            }
+        })
+    });
+        </script>
+        
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+    
+                <section class="logo">
+                    <img src="images/anime_force.png">
+                </section>
+    
+                <div class="vic">
+                    <img class="logotwo" src="images/anime_force.png">
+                    <h2 class="title">AnimeForce</h2>
+                    <img id="menuu" class="menu_icon toggle" src="images/hamburger.png" alt="hero-image">
+                </div>
+                
+                <nav class="menu">
+                    <div class="menuuu item">
+                    <ul>
+                        <li class="item"><a class="nav__link" href="index.html">Home</a></li>
+                        <li class="item"><a class="nav__link" href="how_to_play.html">How To Begin</a></li>
+                        <li class="item"><a class="nav__link" href="rules.html">Rules</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Character<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="races.html">Races</a>
+                              <a href="country.html">Countries/Realms</a>
+                              <a href="classes.html">Classes</a>
+                              <a href="avatar.html">Avatar</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Skills<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                                <a href="physical_skills.html">Physical Skills</a>
+                                <a href="saiyan_skills.html">Saiyan Skills</a>
+                                <a href="shinobi_skills.html">Shinobi Skills</a>
+                                <a href="shinigami_skills.html">Shinigami Skills</a>
+                                <a href="demon_skills.html">Demon Skills</a>
+                                <a href="Beast_Persons.html">Beast-Persons Skills</a>
+                                <a href="Human_skills.html">Human Skills</a>
+                                <a href="class_skills.html">Class Skills/Spells</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="modes_powerups.html">Modes|PowerUps</a></li>
+                        <li class="item"><a class="nav__link" href="Beasts.html">Beasts</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Lore<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="items.html">Items</a>
+                              <a href="weapons_equipments.html">Weapons/Equipments</a>
+                              <a href="get_more_resources.html">GetMoreResources</a>
+                            </div>
+                          </div>
+                        </li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">GameModes<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="story_mode.html">Story Mode</a>
+                              <a href="raids.html">Raids</a>
+                              <a href="adventure_mode.html">Adventure Modes</a>
+                              <a href="crafting.html">Crafting & Trading</a>
+                              <a href="casino.html">Casino</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="event.html">Events</a></li>
+                        <!--put royal pass in events--> 
+                        <li class="item"><a class="nav__link" href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="start">
+            <div class="content" style="padding-right: 15px; padding-left: 15px;"><br>
+                <div class="hgif ff">
+                    <img class="gif gg" src="gif/ffff.gif">
+                    <h1 class="zz">Modes | Power-ups</h1>
+                  </div>
+                <hr class="ull zz"><br>
+
+                <h3>Below are all Modes | Power-ups different races or classes let you use. (other Modes will be added later)</h3>
+                <ul style="padding: 10px;" title="rules of modes">
+                  <li>modes can generally be turned of with an action</li>
+                </ul>
+                <hr class="ull zz" style="width: 100%; border: 1px solid #00b7ff;">
+
+                <div class="spelbox" style="display: flex; width: fit-content;" onclick="spellBoxHider('Saiyan_mode', 'arpua')">
+                  <h4>Saiyan Race Modes/Transformations</h4>
+                  <img class="arrow_down arpua" src="mini_icons/bx-chevron-down.svg" alt="">
+                </div><br>
+
+                <div class="Saiyan_mode" style="display: none;"> 
+                  
+                    <div class="item_pop ">
+
+                      <div class="npcpop fade 1">
+                        <div class="npcpop_con modef">
+                            <img class="npc_close" onclick="closetxtclick('1')" src="images/close.png">
+                            <div style="padding: 0px 15px;">
+                              <h5 style="text-align: center;">Super Saiyan 1</h5>
+                              <hr class="ull zz">
+                              <p style="font-size: 13px; color:darkblue;">
+                                Category: transformation<br>
+                                xp required: 100
+                              </p>
+                              <div style="display: flex;">
+                                <p style="font-size: 13px; color:darkblue; width: fit-content;">Star: </p>
+                                <img style="width: 80px; height: 20px;" src="img/1star.png">
+                              </div>
+                              <p style="font-size: 13px; color:darkblue;">
+                                Requirements: atleast lv 3, ?cp <br>
+                                Preforming time: 1 action <br>
+                                New Stats (height e.t.c): <br>
+                                Duration: until users cp is lesser than 5
+                              </p>
+                              <hr class="ull zz" style="width: 100%;">
+                          </div>
+                          <div style="padding: 0px 15px; height: 35%; overflow: scroll;" >
+                              <p style="color: black; font-weight: 700;">
+                                while in this mode, all damage you take from skills are reduced by 1, all damage you deal with physical or your race skills are increased by 1 and your speed is increased by 20ft.<br>
+                                below is a table that shows the amount of cp spent for this transformation base on your lv.
+                              </p>
+                              <table>
+                                <tr>
+                                  <th style="color: black;">Saiyan lv</th>
+                                  <th style="color: black;">CP used</th>  
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">1-5</td>
+                                  <td style="color: black;">5</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">6-10</td>
+                                  <td style="color: black;">4</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">11-15</td>
+                                  <td style="color: black;">3</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">16-25</td>
+                                  <td style="color: black;">2</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">26>>></td>
+                                  <td style="color: black;">1</td>
+                                </tr>
+                              </table>
+                              <br>
+                              <hr class="ull zz" style="width: 80%; border: 1px solid #630909;">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="npcpop fade 2">
+                        <div class="npcpop_con modef">
+                            <img class="npc_close" onclick="closetxtclick('2')" src="images/close.png">
+                            <div style="padding: 0px 15px;">
+                              <h5 style="text-align: center;">Super Saiyan 2</h5>
+                              <hr class="ull zz">
+                              <p style="font-size: 13px; color:darkblue;">
+                                Category: transformation<br>
+                                xp required: 200
+                              </p>
+                              <div style="display: flex;">
+                                <p style="font-size: 13px; color:darkblue; width: fit-content;">Star: </p>
+                                <img style="width: 80px; height: 20px;" src="img/2star.png">
+                              </div>
+                              <p style="font-size: 13px; color:darkblue;">
+                                Requirements: atleast lv 5, ?cp <br>
+                                Preforming time: 1 action <br>
+                                New Stats (height e.t.c): <br>
+                                Duration: until users cp is lesser than 3
+                              </p>
+                              <hr class="ull zz" style="width: 100%;">
+                          </div>
+                          <div style="padding: 0px 15px; height: 35%; overflow: scroll;" >
+                              <p style="color: black; font-weight: 700;">
+                                while in this mode, all damage you take from skills are reduced by 2, all damage you deal with physical or your race skills are increased by 3, you gain +1 mod each for Str, Con and Dex ability and your speed is increased by 40ft.<br>
+                                below is a table that shows the amount of cp spent for this transformation base on your lv.
+                              </p>
+                              <table>
+                                <tr>
+                                  <th style="color: black;">Saiyan lv</th>
+                                  <th style="color: black;">CP used</th>  
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">1-5</td>
+                                  <td style="color: black;">3cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">6-10</td>
+                                  <td style="color: black;">2cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">11-15</td>
+                                  <td style="color: black;">1cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">16-25</td>
+                                  <td style="color: black;">0.5cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">26>>></td>
+                                  <td style="color: black;">5</td>
+                                </tr>
+                              </table>
+                              <br>
+                              <hr class="ull zz" style="width: 80%; border: 1px solid #630909;">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="npcpop fade 3">
+                        <div class="npcpop_con modef">
+                            <img class="npc_close" onclick="closetxtclick('3')" src="images/close.png">
+                            <div style="padding: 0px 15px;">
+                              <h5 style="text-align: center;">Super Saiyan 3</h5>
+                              <hr class="ull zz">
+                              <p style="font-size: 13px; color:darkblue;">
+                                Category: transformation<br>
+                                xp required: 400
+                              </p>
+                              <div style="display: flex;">
+                                <p style="font-size: 13px; color:darkblue; width: fit-content;">Star: </p>
+                                <img style="width: 80px; height: 20px;" src="img/2star.png">
+                              </div>
+                              <p style="font-size: 13px; color:darkblue;">
+                                Requirements: atleast lv 8, ?cp <br>
+                                Preforming time: 1 action <br>
+                                New Stats (height e.t.c): <br>
+                                Duration: until users cp is lesser than 7
+                              </p>
+                              <hr class="ull zz" style="width: 100%;">
+                          </div>
+                          <div style="padding: 0px 15px; height: 35%; overflow: scroll;" >
+                              <p style="color: black; font-weight: 700;">
+                                while in this mode, all damage you take from skills are reduced by 3. if you are not already wearing armor, your AC becomes 12. all damage you deal with physical or your race skills are increased by 4, you gain +2 mod each for Str, Con and Dex ability and your speed is multiplied by 2.<br>
+                                below is a table that shows the amount of cp spent for this transformation base on your lv.
+                              </p>
+                              <table>
+                                <tr>
+                                  <th style="color: black;">Saiyan lv</th>
+                                  <th style="color: black;">CP used</th>  
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">1-5</td>
+                                  <td style="color: black;">5cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">6-10</td>
+                                  <td style="color: black;">4cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">11-15</td>
+                                  <td style="color: black;">3cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">16-25</td>
+                                  <td style="color: black;">2cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">26>>></td>
+                                  <td style="color: black;">1cp every end turn</td>
+                                </tr>
+                              </table>
+                              <br>
+                              <hr class="ull zz" style="width: 80%; border: 1px solid #630909;">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="npcpop fade 4">
+                        <div class="npcpop_con modef">
+                            <img class="npc_close" onclick="closetxtclick('4')" src="images/close.png">
+                            <div style="padding: 0px 15px;">
+                              <h5 style="text-align: center;">Super Saiyan 4</h5>
+                              <hr class="ull zz">
+                              <p style="font-size: 13px; color:darkblue;">
+                                Category: transformation<br>
+                                xp required: 600
+                              </p>
+                              <div style="display: flex;">
+                                <p style="font-size: 13px; color:darkblue; width: fit-content;">Star: </p>
+                                <img style="width: 80px; height: 20px;" src="img/3star.png">
+                              </div>
+                              <p style="font-size: 13px; color:darkblue;">
+                                Requirements: atleast lv 12, ?cp <br>
+                                Preforming time: 2 action <br>
+                                New Stats (height e.t.c): <br>
+                                Duration: until users cp is lesser than 4
+                              </p>
+                              <hr class="ull zz" style="width: 100%;">
+                          </div>
+                          <div style="padding: 0px 15px; height: 35%; overflow: scroll;" >
+                              <p style="color: black; font-weight: 700;">
+                                while in this mode, all damage you take from skills are reduced by 3. if you are not already wearing armor, your AC becomes 15 (+3 to Ac if you are wearing armor). all damage you deal with physical or your race skills are increased by 4, you gain +2 mod each for Str, Con and Dex ability and your speed is multiplied by 2. anytime you are hit with<br>
+                                below is a table that shows the amount of cp spent for this transformation base on your lv.
+                              </p>
+                              <table>
+                                <tr>
+                                  <th style="color: black;">Saiyan lv</th>
+                                  <th style="color: black;">CP used</th>  
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">1-5</td>
+                                  <td style="color: black;">5cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">6-10</td>
+                                  <td style="color: black;">4cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">11-15</td>
+                                  <td style="color: black;">3cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">16-25</td>
+                                  <td style="color: black;">2cp every end turn</td>
+                                </tr>
+                                <tr>
+                                  <td style="color: black;">26>>></td>
+                                  <td style="color: black;">1cp every end turn</td>
+                                </tr>
+                              </table>
+                              <br>
+                              <hr class="ull zz" style="width: 80%; border: 1px solid #630909;">
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div> 
+
+                    <div class="mode_contain">
+                      <a class="prev1" onclick="plusSlides3d(-1)">&#10094;</a>
+                      <p id="mode_no" class="mode_no" style="color: #3f3a3a;"></p>
+
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssjone.png">
+                          <h3 class="mode_title">Super Saiyan 1</h3>
+                            <button class="mode_button" onclick="txtclick(1)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssjonegradetwo.png">
+                          <h3 class="mode_title">Super Saiyan 1 grade 2</h3>
+                            <button class="mode_button" onclick="txtclick(2)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssjtwo.png">
+                          <h3 class="mode_title">Super Saiyan 2</h3>
+                            <button class="mode_button" onclick="txtclick(3)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssjthree.png">
+                          <h3 class="mode_title">Super Saiyan 3</h3>
+                            <button class="mode_button" onclick="txtclick(4)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssg.png">
+                          <h3 class="mode_title">Super Saiyan god</h3>
+                            <button class="mode_button" onclick="txtclick(5)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssjfour.png">
+                          <h3 class="mode_title">Super Saiyan 4</h3>
+                            <button class="mode_button" onclick="txtclick(6)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssgssone.png">
+                          <h3 class="mode_title">Super Saiyan god super saiyan 1</h3>
+                            <button class="mode_button" onclick="txtclick(7)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssgsse.png">
+                          <h3 class="mode_title">Mastered Super Saiyan god super saiyan 1 </h3>
+                            <button class="mode_button" onclick="txtclick(8)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssui.png">
+                          <h3 class="mode_title">Ultra Instinct </h3>
+                            <button class="mode_button" onclick="txtclick(9)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      <div class="mode_box fade Slide_saiyan">
+                        <div class="mode_bal">
+                          <img class="mode_image" src="modes_powerups/ssue.png">
+                          <h3 class="mode_title">Primal Instinct</h3>
+                            <button class="mode_button" onclick="txtclick(10)" ><img style="width: auto; height: 20px;" src="img/view_icon.png" alt=""></button>
+                        </div>
+                      </div>
+                      
+
+                      <a class="next1" onclick="plusSlides3d(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(1)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(2)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(3)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(4)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(5)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(6)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(7)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(8)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(9)"></span> 
+                      <span class="dot Slide_saiyan_dot" onclick="currentSlide3d(10)"></span> 
+                    </div><br>
+
+                </div>
+                
+
+
+                
+        </div>
+            <div id="scr" class="navb_con" onclick="topFunction()">
+              <hr class="navb">
+              <img class="navba" src="mini_icons/bx-chevron-down.svg">
+            </div>
+            <footer>
+                <p>
+                © Copyright 2021 AlphaX Studios <a href="terms.html">Terms & Conditions</a> | <a href="policy.html">Privacy Policy</a> - All Rights Reserved
+                </p>
+            </footer>
+        </div>
+    </body>
+    <script>
+
+      function txtclick(n){
+      let modal = document.getElementsByClassName(n)[0];
+      modal.style.display = "block";
+      }
+
+      function closetxtclick(x){
+      let modal = document.getElementsByClassName(x)[0];
+      modal.style.display = "none";
+      }
+
+      $(".itemko").bind("click", function(){
+          var divs = $(".itemko");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          
+      });
+
+      $(".itemko2").bind("click", function(){
+          var divs = $(".itemko2");
+          var curIdx = divs.index($(this));
+          var r="0";
+          curIdx = r + curIdx.toString();
+          txtclick(curIdx,curIdx);
+          //alert(curIdx);
+      });
+
+      $(".itemko3").bind("click", function(){
+          var divs = $(".itemko3");
+          var curIdx = divs.index($(this));
+          var r="00";
+          curIdx = r + curIdx.toString();
+          txtclick(curIdx,curIdx);
+          //alert(curIdx);
+      });
+
+      function spellBoxHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+    }
+
+    </script>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("scr");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <script src="js/search.js"></script>
+  <script src="js/slidermodes.js"></script>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Battle and win!! Anime Force offical site" />
+        <meta name="keywords" content="Anime Force RPG" />
+        <meta name="author" content="Oluyoh Okiemute||Victory Fatoyinbo" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Adventuring?</title>
+        <link rel="stylesheet" href="stylest.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto:ital,wght@0,100;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script>
+            $(function() {
+
+        $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active")
+                document.getElementById("menuu").src = "images/hamburger.png";
+            }
+            else
+            {
+                $(".item").addClass("active")
+                document.getElementById("menuu").src = "images/close.png";
+            }
+        })
+    });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+    
+                <section class="logo">
+                    <img src="images/anime_force.png">
+                </section>
+    
+                <div class="vic">
+                    <img class="logotwo" src="images/anime_force.png">
+                    <h2 class="title">AnimeForce</h2>
+                    <img id="menuu" class="menu_icon toggle" src="images/hamburger.png" alt="hero-image">
+                </div>
+                
+                <nav class="menu">
+                    <div class="menuuu item">
+                    <ul>
+                        <li class="item"><a class="nav__link" href="index.html">Home</a></li>
+                        <li class="item"><a class="nav__link" href="how_to_play.html">How To Begin</a></li>
+                        <li class="item"><a class="nav__link" href="rules.html">Rules</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Character<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="races.html">Races</a>
+                              <a href="country.html">Countries/Realms</a>
+                              <a href="classes.html">Classes</a>
+                              <a href="avatar.html">Avatar</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Skills<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                                <a href="physical_skills.html">Physical Skills</a>
+                                <a href="saiyan_skills.html">Saiyan Skills</a>
+                                <a href="shinobi_skills.html">Shinobi Skills</a>
+                                <a href="shinigami_skills.html">Shinigami Skills</a>
+                                <a href="demon_skills.html">Demon Skills</a>
+                                <a href="Beast_Persons.html">Beast-Persons Skills</a>
+                                <a href="Human_skills.html">Human Skills</a>
+                                <a href="class_skills.html">Class Skills/Spells</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="modes_powerups.html">Modes|PowerUps</a></li>
+                        <li class="item"><a class="nav__link" href="Beasts.html">Beasts</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Lore<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="items.html">Items</a>
+                              <a href="weapons_equipments.html">Weapons/Equipments</a>
+                              <a href="get_more_resources.html">GetMoreResources</a>
+                            </div>
+                          </div>
+                        </li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">GameModes<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="story_mode.html">Story Mode</a>
+                              <a href="raids.html">Raids</a>
+                              <a href="adventure_mode.html">Adventure Modes</a>
+                              <a href="crafting.html">Crafting & Trading</a>
+                              <a href="casino.html">Casino</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="event.html">Events</a></li>
+                        <!--put royal pass in events--> 
+                        <li class="item"><a class="nav__link" href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="start">
+            <div class="content"><br>
+              <h3 class="power_scaling">Adventure Activity</h3>
+              <hr class="ull"><br>
+              <p>
+                Tool for adventure. 
+              </p><br>
+              
+              <h5>Select Activity</h5>
+                <div style="display: flex;" onclick="drawerHider('Actidrop','acatar')">
+                  <input class="input CActvity_type" readonly placeholder="Activity">
+                  <img class="arrow_down acatar" src="mini_icons/bx-chevron-down.svg" alt="">  
+                </div>
+                
+                  <div class="dropp-content Actidrop">
+                    <a class="activityse">Mining</a>
+                    <a class="activityse">Fishing</a>
+                    <a class="activityse">Cooking</a>  
+                    <a class="activityse">Building</a>  
+                    <a class="activityse">Crafting</a>
+                    <a class="activityse">Alchemy</a>
+                    <a class="activityse">Enchanting</a>
+                    <a class="activityse">Scavenging</a>
+                    <a class="activityse">Hunting</a>
+                  </div>
+                  <br>
+              
+              <!-- Mine box start -->
+              <div id="MiningBox" class="MiningBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <h5>Mining</h5><br>
+
+                <p><b>Mine Name</b></p>
+                <div style="display: flex;" onclick="drawerHider('minenamedrop','minnatar')">
+                  <input class="input CMine_name" id="CMine_name" readonly placeholder="Mine Name">
+                  <img class="arrow_down minnatar" src="mini_icons/bx-chevron-down.svg" alt="">  
+                </div>
+                
+                  <div class="dropp-content minenamedrop">
+                    <a class="minenamese">Beginning Mines</a>
+                    <a class="minenamese">Horunka Mines</a>
+                    <a class="minenamese">Ancient Mines of Sunba</a>
+                    <a class="minenamese">Random</a>
+                  </div>
+
+
+                <p><b>Mine Rank</b></p>
+                <div style="display: flex;">
+                  <input class="input CMine_rank" id="CMine_rank" onclick="drawerHider('minerankdrop','minranar')" readonly disabled placeholder="Rank">
+                  <img class="arrow_down minranar" src="mini_icons/bx-chevron-down.svg" alt="">  
+                </div>
+                
+                  <div class="dropp-content minerankdrop">
+                    <a class="minerankse">F</a>
+                    <a class="minerankse">E</a>
+                    <a class="minerankse">D</a>
+                    <a class="minerankse">C</a>
+                    <a class="minerankse">B</a>
+                    <a class="minerankse">A</a>
+                    <a class="minerankse">S</a>
+                    <a class="minerankse">SS</a>
+                    <a class="minerankse">Z</a>
+                  </div>
+
+                  <p>Floor Number. please just type number</p>
+                  <div>
+                    <input style="width: 50%;" class="input CMine_floor" oninput="mineranktofloor()" id="CMine_floor" type="number" placeholder="Floor Number">
+                  </div>
+
+                  <br>
+                  <button style="width: 100%;" class="mode_button" onclick="mine()" >Mine<img style="width: 20px; height: 20px;" src="gif/kaka.gif" alt=""></button>
+
+
+                  <div class="Mine_Result" style="width: 100%; background-color: white; margin: 30px 0px; border: double; border-color: darkblue; color: black; font-size: 14px; overflow: scroll;">
+                    <br><p style="color: orange; text-align-last: center;">Mine Result</p>
+                    <hr class="ull"><br>
+                    <p id="Mine_Result_Writing" style="color: black; font-size: 14px; padding: 2px;"></p>
+    
+                  </div><br><br>
+                
+
+              </div> 
+              <!-- Mine box end -->
+
+
+              <div id="FishingBox" class="FishingBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Fishing</p>
+              </div>
+
+              <div id="CookingBox" class="CookingBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Cooking</p>
+              </div>
+
+              <div id="BuildingBox" class="BuildingBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Building</p>
+              </div>
+
+              <div id="CraftingBox" class="CraftingBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Crafting</p>
+              </div>
+
+              <div id="AlchemyBox" class="AlchemyBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Alchemy</p>
+              </div>
+
+              <div id="EnchantingBox" class="EnchantingBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Enchanting</p>
+              </div>
+
+              <div id="ScavengingBox" class="ScavengingBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Scavenging</p>
+              </div>
+
+              <div id="HuntingBox" class="HuntingBox" style="display: none; border: 1px red solid; padding: 10px; border-radius: 15px;">
+                <p>Hunting</p>
+              </div>
+
+              
+              </div>
+
+              </div>
+
+                  
+              
+
+              
+
+          </div>
+            <div>
+              <div id="scr" class="navb_con" onclick="topFunction()">
+                <hr class="navb">
+                <img class="navba" style="z-index: 5;" src="mini_icons/bx-chevron-down.svg">
+            </div>
+            <footer>
+                <p>
+                © Copyright 2021 AlphaX Studios <a href="terms.html">Terms & Conditions</a> | <a href="policy.html">Privacy Policy</a> - All Rights Reserved
+                </p>
+            </footer>
+        </div>
+    </body>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("scr");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <script>
+    function spellBoxHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+    }
+
+    function drawerHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+    }
+
+
+    $(".activityse").bind("click", function(){
+          var divs = $(".activityse");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          //txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          var fff = divs.get(curIdx).innerHTML;
+          let box = document.getElementsByClassName("Actidrop")[0];
+          let arrow = document.getElementsByClassName("acatar")[0];
+          box.style.display = "none";
+          arrow.style.transform = "rotate(180deg)";
+          
+          racepastedrawer(fff,"CActvity_type");
+          
+    });
+
+    $(".minenamese").bind("click", function(){
+          var divs = $(".minenamese");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          //txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          var fff = divs.get(curIdx).innerHTML;
+          let box = document.getElementsByClassName("minenamedrop")[0];
+          let arrow = document.getElementsByClassName("minnatar")[0];
+          box.style.display = "none";
+          arrow.style.transform = "rotate(180deg)";
+          
+          pastedrawer(fff,"CMine_name");
+          
+    });
+
+    $(".minerankse").bind("click", function(){
+          var divs = $(".minerankse");
+          var curIdx = divs.index($(this));
+          // $(".item").addClass("active")
+          //txtclick(curIdx,curIdx);
+          // alert(curIdx);
+          var fff = divs.get(curIdx).innerHTML;
+          let box = document.getElementsByClassName("minerankdrop")[0];
+          let arrow = document.getElementsByClassName("minranar")[0];
+          box.style.display = "none";
+          arrow.style.transform = "rotate(180deg)";
+          
+          secpastedrawer(fff,"CMine_rank");
+          
+    });
+
+    
+
+    
+  </script>
+  <script src="js/generate_actvity.js"></script>
+</html>

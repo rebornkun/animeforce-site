@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Battle and win!! Anime Force offical site" />
+        <meta name="keywords" content="Anime Force RPG" />
+        <meta name="author" content="Oluyoh Okiemute||Victory Fatoyinbo" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Saiyan Skills</title>
+        <link rel="stylesheet" href="stylest.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto:ital,wght@0,100;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script>
+            $(function() {
+
+        $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active")
+                document.getElementById("menuu").src = "images/hamburger.png";
+            }
+            else
+            {
+                $(".item").addClass("active")
+                document.getElementById("menuu").src = "images/close.png";
+            }
+        })
+    });
+        </script>
+        
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+    
+                <section class="logo">
+                    <img src="images/anime_force.png">
+                </section>
+    
+                <div class="vic">
+                    <img class="logotwo" src="images/anime_force.png">
+                    <h2 class="title">AnimeForce</h2>
+                    <img id="menuu" class="menu_icon toggle" src="images/hamburger.png" alt="hero-image">
+                </div>
+                
+                <nav class="menu">
+                    <div class="menuuu item">
+                    <ul>
+                        <li class="item"><a class="nav__link" href="index.html">Home</a></li>
+                        <li class="item"><a class="nav__link" href="how_to_play.html">How To Begin</a></li>
+                        <li class="item"><a class="nav__link" href="rules.html">Rules</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Character<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="races.html">Races</a>
+                              <a href="country.html">Countries/Realms</a>
+                              <a href="classes.html">Classes</a>
+                              <a href="avatar.html">Avatar</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Skills<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                                <a href="physical_skills.html">Physical Skills</a>
+                                <a href="saiyan_skills.html">Saiyan Skills</a>
+                                <a href="shinobi_skills.html">Shinobi Skills</a>
+                                <a href="shinigami_skills.html">Shinigami Skills</a>
+                                <a href="demon_skills.html">Demon Skills</a>
+                                <a href="Beast_Persons.html">Beast-Persons Skills</a>
+                                <a href="Human_skills.html">Human Skills</a>
+                                <a href="class_skills.html">Class Skills/Spells</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="modes_powerups.html">Modes|PowerUps</a></li>
+                        <li class="item"><a class="nav__link" href="Beasts.html">Beasts</a></li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">Lore<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="items.html">Items</a>
+                              <a href="weapons_equipments.html">Weapons/Equipments</a>
+                              <a href="get_more_resources.html">GetMoreResources</a>
+                            </div>
+                          </div>
+                        </li>
+    
+                        <li class="item"><div class="dropdown">
+                            <a class="nav__link dropTxtSkills">GameModes<img class="dropdown__icon" src="mini_icons/bx-chevron-down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                              <a href="story_mode.html">Story Mode</a>
+                              <a href="raids.html">Raids</a>
+                              <a href="adventure_mode.html">Adventure Modes</a>
+                              <a href="crafting.html">Crafting & Trading</a>
+                              <a href="casino.html">Casino</a>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li class="item"><a class="nav__link" href="event.html">Events</a></li>
+                        <!--put royal pass in events--> 
+                        <li class="item"><a class="nav__link" href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="start">
+            <div class="content" style="padding-right: 15px; padding-left: 15px;"><br>
+                <div class="hgif ff">
+                    <img class="gif gg" src="gif/skillhadgo.gif">
+                    <h1 class="zz">Saiyan S"kill"s</h1>
+                  </div>
+                <hr class="ull zz"><br>
+
+                <h3>Below are all skills only Characters from the Saiyan race can use. (other Skills will be added later), you can see skill rules <a style="font-size: 20;" href="rules.html#skills">here</a></h3><br>
+                <hr class="ull zz" style="width: 100%; border: 1px solid #00b7ff;">
+
+                <div class="spelbox" style="display: flex; width: fit-content;" onclick="spellBoxHider('Saiyan_skill', 'arpua')">
+                  <h4>Saiyan skills</h4>
+                  <img class="arrow_down arpua" src="mini_icons/bx-chevron-down.svg" alt="">
+                </div><br>
+
+                <div id="Saiyan_skill" class="Saiyan_skill" style="display: none;">
+
+                  <p id="counterr"></p>
+                  <div class="search_con">
+                      <input type="text" id="myInput" class="search_bar s1" onkeyup="myFunction('s1','st1')" placeholder="Search for Saiyan skills.." title="Type in a name">
+                  </div><br>
+                  
+                  <table style="font-weight: 700;" id="parent" class="search_table st1 reduceth">
+                      <tr>
+                        <th style="width: 90%;">Skill name</th>
+                        <th style="width: 10%;">Stars</th>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Ki Blast</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Finger Beam</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Energy Wave</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Bending Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Flying Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Twin dragon shot</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Max power Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Super Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Angry Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Instant Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >True Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Limitbreaker Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >god Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >10x god Kamehameha</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Follow Up Blast</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Spirit shot</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Invisible eye blast</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Destructo Disc</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Destructo Disc Hexa blade</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Explosive wave</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Super Explosive wave</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Spirit Bomb</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Fusion Spirit Bomb</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Large Spirit Bomb</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Instant Spirit Bomb</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Super Spirit Bomb</td>
+                        <td><img style="width: 80px; height: auto;" src="img/5star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Gravity bash</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Charged energy ball</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Transcendence</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Solar Flare</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Kaio-Ken</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Kaio-Ken x3</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Kaio-Ken x10</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Give me energy!</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Suspended Blast</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Energy Shield</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Energy Landmine</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >god Bind</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Cloning</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Healing</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Super god fist</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Pressure Point Attack</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Dragonthrow</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Full-Nelson</td>
+                        <td><img style="width: 80px; height: auto;" src="img/1star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Kaio-ken Finish</td>
+                        <td><img style="width: 80px; height: auto;" src="img/5star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Kaio-ken Attack</td>
+                        <td><img style="width: 80px; height: auto;" src="img/5star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Meteor Combination</td>
+                        <td><img style="width: 80px; height: auto;" src="img/5star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Meteor Smash</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Now I'm Really Mad!</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >lv1 Teleport</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Can You Follow Me?</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Celestial Whirlwind</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Wild Sense</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Tornado</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Afterimage Technique</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Fusion Dance</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Galick Gun</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Galick Cannon</td>
+                        <td><img style="width: 80px; height: auto;" src="img/5star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Burst Cannon</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Galick Blazer</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Double Galick Cannon</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Super Galick Blaster</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Galaxy Breaker</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Shine Shot</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Tail Slicer</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Ultimate Explosive Wave</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Dirty Fireworks</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Lucora Gun</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Big Bang Attack</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Photon Bomber</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Flash</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Crash</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Impact</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Explosion</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Heat Dome Attack</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Spirit Sword</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Sphere of Destruction</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Full Power Energy Ball</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Blow</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Final Strike</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Ignite Strike</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Hand Crush</td>
+                        <td><img style="width: 80px; height: auto;" src="img/2star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Elite Assault</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Genocide Breaker</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Amazing Impact</td>
+                        <td><img style="width: 80px; height: auto;" src="img/4star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Wild Hunt</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Energy Rings</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      <tr>
+                        <td class="dddd itemko" style="cursor: pointer;" >Hellzone Grenade</td>
+                        <td><img style="width: 80px; height: auto;" src="img/3star.png"></td>
+                      </tr>
+                      
+                      
+                  </table><br>
+
+                  
+
+                  <div class="item_pop ">
+
+                      <div class="npcpop 0">
+                        <div class="phyf saiyanif ">
+                            <img class="npc_close" onclick="closetxtclick('0')" src="images/close.png">
+                            <div style="padding: 0px 15px;">
+                                <h5 id="skill_name" style="text-align: center;"></h5>
+                                <hr class="ull zz">
+                                <p id="skill_category" style="font-size: 13px; color:lightskyblue;"></p>
+                                <p id="skill_subcategory" style="font-size: 13px; color:lightskyblue;"></p>
+                                <p id="skill_xprequired" style="font-size: 13px; color:lightskyblue;"></p>
+                                <p id="skill_category" style="font-size: 13px; color:lightskyblue;"></p>
+                                <p id="skill_category" style="font-size: 13px; color:lightskyblue;"></p>
+                                <div style="display: flex;">
+                                  <p style="font-size: 13px; color:lightskyblue; width: fit-content;">Star: </p>
+                                  <img id="skill_image" style="width: 80px; height: 20px;" src="img/1star.png">
+                                </div>
+                                <p id="skill_requirements" style="font-size: 13px; color:lightskyblue;"></p>
+                                <p id="skill_performingtime" style="font-size: 13px; color:lightskyblue;"></p>
+                                <p id="skill_range" style="font-size: 13px; color:lightskyblue;"></p>
+                                <p id="skill_duration" style="font-size: 13px; color:lightskyblue;"></p>
+                                
+                                <hr class="ull zz" style="width: 100%;">
+                            </div>
+                            <div style="padding: 0px 15px; height: 35%; overflow: scroll; " >
+                                <p id="skill_details" style="color: white; font-weight: 700;">
+                                  replenish you or an ally hp by 5.
+                                </p>
+                                <hr class="ull zz" style="width: 80%; border: 1px solid #630909;">
+                            </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+
+                  </div>
+
+                </div>
+                
+        </div>
+            <div id="scr" class="navb_con" onclick="topFunction()">
+              <hr class="navb">
+              <img class="navba" src="mini_icons/bx-chevron-down.svg">
+            </div>
+            <footer>
+                <p>
+                © Copyright 2021 AlphaX Studios <a href="terms.html">Terms & Conditions</a> | <a href="policy.html">Privacy Policy</a> - All Rights Reserved
+                </p>
+            </footer>
+        </div>
+    </body>
+    <script>
+
+        let count = document.getElementById("counterr");
+        let amount = $('#Saiyan_skill .itemko').length;
+        
+        count.innerHTML = "Total Skills = " + amount;
+
+
+      function txtclick(n){
+      let modal = document.getElementsByClassName(n)[0];
+      modal.style.display = "block";
+      }
+
+      function closetxtclick(x){
+      let modal = document.getElementsByClassName(x)[0];
+      modal.style.display = "none";
+      }
+
+
+      $(".itemko").bind("click", function(){
+          var divs = $(".itemko");
+          var curIdx = divs.index($(this));
+          var fff = divs.get(curIdx).innerHTML;
+          rodclick(fff);
+          
+      });
+
+      function spellBoxHider(x,y){
+      let box = document.getElementsByClassName(x)[0];
+      let arrow = document.getElementsByClassName(y)[0];
+
+      if(box.style.display == "none"){
+            box.style.display = "block"
+            arrow.style.transform = "rotate(0deg)";
+          }else{
+            box.style.display = "none";
+            arrow.style.transform = "rotate(180deg)";
+          }
+    }
+
+    </script>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("scr");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <script src="js/search.js"></script>
+  <script src="js/saiyan_skills.js"></script>
+</html>
